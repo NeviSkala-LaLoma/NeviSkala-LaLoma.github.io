@@ -1,0 +1,208 @@
+body {
+  background-color: navajowhite;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+h1,
+h2 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: 1.5;
+}
+
+.h1 strong {
+  color: #056fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.hero {
+  height: 1000px;
+  background-image: url(../img/vitrina.jpg);
+  background-size: 2090px 1224px;
+  color: white;
+  padding: 15px;
+  display: flex;
+}
+
+.catalogos h2 {
+  padding: 15px;
+}
+
+.products {
+  border: 1px solid gray;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product1-details,
+.product2-details,
+.product3-details,
+.product4-details,
+.product5-details,
+.product6-details,
+.product7-details,
+.product8-details,
+.product9-details,
+.product10-details {
+  width: 400px;
+  margin: 15px;
+  flex-shrink: 0;
+}
+
+.Webs,
+.Bots {
+  border: 1px solid gray;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  padding: 15px;
+  margin: 10px;
+  flex-wrap: inherit;
+}
+
+.dosBots,
+.dosPage {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.FaceCel {
+  margin-top: 0;
+}
+
+.FaceCel_img {
+  border-radius: 35px;
+}
+
+.BotMess1,
+.BotMess2 {
+  border-radius: 40px;
+}
+
+.faceCel {
+  background-position-x: right;
+}
+
+.TyC a {
+  text-decoration: none;
+}
+
+.contacto {
+  background-color: #056fff;
+  color: white;
+  height: 150;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0 10px;
+}
+.social-link.twitter {
+  background-image: url("../img/twitter.svg");
+}
+.social-link.facebook {
+  background-image: url("../img/facebook.svg");
+}
+.social-link.whatsapp {
+  background-image: url("../img/whatsapp.svg");
+}
+.social-link.instagram {
+  background-image: url("../img/instagram.svg");
+}
+
+.form-email input {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+}
+
+.product1_imageContainer,
+.product2_imageContainer {
+  width: 500px;
+}
+.Webs_imageContainer {
+  margin: 0;
+}
+
+.logo {
+  margin-top: 0;
+}
+.header {
+  background-color: rgb(250, 178, 70);
+  color: white;
+  background-image: url(../img/logo-vegano.png);
+  background-position-x: right;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.menu {
+  display: flex;
+  height: inherit;
+}
+
+.header ul {
+  display: flex;
+  height: inherit;
+}
+
+.header ul li {
+  height: inherit;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.footer {
+  color: white;
+  background-color: rgb(175, 214, 108);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  vertical-align: middle;
+  margin-left: 320px;
+}
+
+.footer p {
+  padding: 15px;
+}
